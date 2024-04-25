@@ -1,0 +1,253 @@
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(./fonts/panthera-cufonfonts/PantheraRegular-MVZ9J.ttf);
+}
+@font-face{
+    font-family: 'Beyno';
+    src: url(./fonts/beyno-regular-maisfontes.80ae/beyno-regular.otf);
+}
+@font-face {
+    font-family: 'Wakanda Forever';
+    src: url(./fonts/wakanda_forever/WakandaForever-Regular.ttf);
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url(./fonts/cantarell/Cantarell-Regular.ttf);
+}
+body{
+    background-image: url(./Illustrations+Logo/Allpages/arrière_plan.png);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+ header li{
+    display:inline;
+    
+}
+.logo a img:hover{
+    filter: invert(64%) sepia(9%) saturate(860%) hue-rotate(219deg) brightness(91%) contrast(91%);
+}
+.navi li a{
+    padding: 0 10px;
+    font-family: "Beyno";
+    font-size: 23px;
+}
+.navi li a:hover{
+    text-decoration: underline;
+}
+.navi li a.enigme:visited{
+    color: #9E91B7;
+    text-decoration:underline;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+.titre {
+    column-count: 2;
+}
+.titre h1{
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 550px;
+    font-family: 'Beyno';
+    font-size: 60px;
+    color: #9E91B7 ;
+    font-weight: 100;
+    
+}
+.titre  .image img{
+    width: 1200px;
+    position: relative;
+    right: 250px;
+    top: -50px;  
+}
+.contenu{
+   float: right;
+   position: relative;
+   top: -800px;
+   left: 150px;
+}
+.contenu p{
+    width: 500px;
+    text-align: justify;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 14px;
+}
+.contenu .cercle img{
+    width: 700px;
+
+}
+.contenu p{
+    position: relative;
+    top: -300px;
+    left: 150px;
+    font-size: 14px;
+    width: 450px;
+}
+.ligne{
+    float: right;
+    position: relative;
+    top: -900px;
+    left: 300px;
+}
+h3{
+    margin-top: 50px;
+}
+.wakanda{
+    font-family: 'Wakanda Forever';
+    font-size: 43px;
+    color: #9E91B7;
+}
+p span{
+    font-family: 'Wakanda Forever';
+}
+#citation{
+    position: relative;
+    left: 600px;
+    top: -700px;
+}
+#citation p{
+    width: 510px;
+    position: relative;
+    top: -300px;
+    left: 190px;
+    text-align:left;
+    font-family: 'Cantarell';
+    font-size: 14px;
+}
+#citation p.special{
+    padding: 10px 200px;
+}
+#citation .cercle2 img{
+    width: 700px;
+    position: relative;
+    left: 100px;
+}
+#commente input{
+    display: block;
+}
+#commente{
+    position: relative;
+    top: -800px;
+}
+#commente input[type=text]{
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background: none;
+    border: 1px solid #DF99F2;
+    margin: 10px 0;
+}
+#commente input[type=submit]{
+    margin: 50px 150px;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    background: #F2CEF2;
+    cursor: pointer;
+}
+#commente input[type=submit]:hover{
+    box-shadow:  #F2CEF2 0px 0px 20px ;
+}
+footer{
+    background-image: url(./Illustrations+Logo/Allpages/back_footer.png);
+    height: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -600px;
+}
+footer .logo2:hover{
+    zoom: 110%;
+ }
+footer .logo2 .footer1{
+    width: 300px;
+    margin: 200px 50px 100px 400px;
+    
+}
+footer .logo2 .footer2{
+    position: relative;
+    top:-270px;
+    left:-270px;
+}
+footer .pages{
+    float: right;
+    position: relative;
+    right: 600px;
+    top: -450px;
+}
+li{
+    font-family: 'Cantarell';
+    font-size: 10px;
+}
+.pages h5{
+    padding-bottom: 30px;
+    font-family: 'cantarell';
+    font-size: 25px;
+    letter-spacing:28%;
+    color: #fff;
+    font-weight: 100;
+    
+}
+.link li a:hover{
+    text-decoration: underline;
+} 
+.pages .link li ,a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.pages .link li{
+    margin-top: 20px;
+}
+footer .icon{
+    float: right;
+    position: relative;
+    top: -450px;
+}
+footer .icon h5{
+    padding-bottom: 30px;
+    font-family: 'cantarell';
+    font-size: 25px;
+    letter-spacing:28%;
+    color: #fff;
+    font-weight: 100;
+}
+.logo3 a img:hover{
+    zoom: 110%;
+}
+.icon .logo3 a{
+    padding: 0 10px;
+}
+footer ul.pied{
+    float: right;
+    display: flex;
+    position: relative;
+    top: -200px;
+    left: 300px;
+    color: #fff;
+}
+.pied li.sans{
+    list-style: none;
+    padding-right: 40px;
+}
+.pied li a{
+    padding-right: 40px;
+}
+
+
+
